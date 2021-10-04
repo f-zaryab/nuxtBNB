@@ -48,5 +48,6 @@ export default {
   router : {
     prefetchLinks : false,
     base: '/nuxtBNB',
+    trailingSlash: false,
   }
 }
