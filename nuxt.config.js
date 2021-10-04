@@ -39,8 +39,12 @@ export default {
   build: {
   },
 
+  // custom Addition for deployment
+  mode: 'static',
+
   // custom Addition Prefetch Enabing/Disabling Globally
   router : {
     prefetchLinks : false,
+    base: '/nuxtBNB ',
   }
 }
