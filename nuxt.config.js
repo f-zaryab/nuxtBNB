@@ -29,12 +29,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // Next Image module https://image.nuxtjs.org/components/nuxt-img
-    
-    [{
-      provider: 'static',
-      dir: "assets/images",
-    }],
+   
 
   ],
 
