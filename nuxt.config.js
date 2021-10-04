@@ -41,7 +41,8 @@ export default {
 
   // custom Addition for deployment
   mode: 'static',
-
+  target: 'static',
+  
   // custom Addition Prefetch Enabing/Disabling Globally
   router : {
     prefetchLinks : false,
