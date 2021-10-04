@@ -45,6 +45,6 @@ export default {
   // custom Addition Prefetch Enabing/Disabling Globally
   router : {
     prefetchLinks : false,
-    base: '/nuxtBNB ',
+    base: '/nuxtBNB',
   }
 }
