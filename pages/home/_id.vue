@@ -5,8 +5,8 @@
         </div>
         {{ home.title }}
         ${{ home.pricePerNight }} / night <br/>
-        <img src="~/images/marker.svg" width="20" height="20" />{{ home.location.address }} {{ home.location.city }} {{ home.location.state }} {{ home.location.country }} <br/>
-        <img src="~/images/star.svg" width="20" height="20" />{{ home.reviewValue }} <br/>
+        <img src="/images/marker.svg" width="20" height="20" />{{ home.location.address }} {{ home.location.city }} {{ home.location.state }} {{ home.location.country }} <br/>
+        <img src="/images/star.svg" width="20" height="20" />{{ home.reviewValue }} <br/>
         {{ home.guests }} guests, {{ home.bedrooms }} rooms, {{ home.beds }} beds, {{ home.bathrooms }} bath <br/>
 
 
