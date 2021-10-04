@@ -30,11 +30,12 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // Next Image module https://image.nuxtjs.org/components/nuxt-img
+    '@nuxtjs/svg',
     ['@nuxt/image', {
       provider: 'static',
       dir: "assets/images",
     }],
-    
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
